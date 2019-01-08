@@ -12,17 +12,15 @@ function deepestChild(){
 }
 function increseRankBy(n){
   var rankedLists = document.querySelectorAll('.ranked-list')
-    if (parseInt(rankedLists))
+    for (let i = 0; i < rankedLists.length; i++){
+      var ul = rankedLists[i];
+      var children = ul.children;
+        for (let j = 0; j < children.length; j++){
+          var li = children[j];
+          var num = li.innerHTML; 
+        }
 
-  let children = firstList.children
-  let start = 1
-  for (let i = 0, l = children.length; i < l; i++) {
-    start + i + 3;
-  }
-  let children = secondList.children
-  let start = 12
+    }
 
-  for (let i = 0, l = children.length; i < l; i++) {
-    start - i + 3;
-}
+
 }

@@ -10,7 +10,7 @@ function deepestChild(){
   var deep = document.querySelector('#grand-node div div div div')
   return deep;
 }
-function increaseseRankBy(n){
+function increaseRankBy(n){
   var rankedLists = document.querySelectorAll('.ranked-list')
     for (let i = 0; i < rankedLists.length; i++){
       var ul = rankedLists[i];

@@ -19,7 +19,7 @@ function increaseRankBy(n){
           var li = children[j];
           var num = li.innerHTML;
           var numInt = parseInt(num);
-          console.log( n + numInt); 
+            li.innerHTML =  n + numInt;  
         }
 
     }
